@@ -33,7 +33,7 @@
 
   <body>
 
-    <!-- ======= Header ======= -->
+    <!-- ======= 1. MENÚ ======= -->
     <header id="header" class="fixed-top ">
       <div class="container d-flex align-items-center justify-content-lg-between">
 
@@ -46,15 +46,16 @@
             <li><a class="nav-link scrollto active" href="#hero">Inicio</a></li>
             <li><a class="nav-link scrollto" href="#about">Sobre ROX</a></li>
             <li><a class="nav-link scrollto" href="#services">Proyectos</a></li>
-            <li><a class="nav-link scrollto" href="#team">Equipo</a></li>
+            <li><a class="nav-link scrollto" href="#team">Gerencia</a></li>
             <li><a class="nav-link scrollto" href="#contact">Contacto</a></li>
           </ul>
           <i class="bi bi-list mobile-nav-toggle"></i>
         </nav><!-- .navbar -->
       </div>
-    </header><!-- End Header -->
+    </header>
+    <!-- FINAL SECCIÓN MENÚ -->
 
-    <!-- ======= Hero Section ======= -->
+    <!-- ======= 2. PORTADA DE WEBPAGE ======= -->
     <section id="hero" class="d-flex align-items-center justify-content-center">
       <div class="container" data-aos="fade-up">
 
@@ -104,7 +105,7 @@
 
     <main id="main">
 
-      <!-- ======= About Section ======= -->
+      <!-- ======= 3. SOBRE ROX ======= -->
       <section id="about" class="about">
         <div class="container" data-aos="fade-up">
 
@@ -128,9 +129,9 @@
           </div>
 
         </div>
-      </section><!-- End About Section -->
+      </section><!-- FINAL SECCIÓN SOBRE ROX -->
 
-      <!-- ======= Features Section ======= -->
+      <!-- ======= 4. SECCIÓN EXPERIENCIA ROX ======= -->
       <section id="features" class="features">
         <div class="container" data-aos="fade-up">
 
@@ -156,9 +157,10 @@
           </div>
 
         </div>
-      </section><!-- End Features Section -->
+      </section>
+      <!-- FINAL SECCIÓN EXPERIENCIA ROX -->
     
-      <!-- ======= Services Section ======= -->
+      <!-- ======= 5. SECCIÓN PROYECTOS ======= -->
       <section id="services" class="services">
         <div class="container" data-aos="fade-up">
 
@@ -285,9 +287,10 @@
           </div>
 
         </div>
-      </section><!-- End Services Section -->
+      </section>
+      <!-- FINAL SECCIÓN PROYECTOS -->
 
-      <!-- ======= Cta Section ======= -->
+      <!-- ======= 6. SECCIÓN EQUIPO ROX ======= -->
       <section id="cta" class="cta">
         <div class="container" data-aos="zoom-in">
 
@@ -297,55 +300,98 @@
           </div>
 
         </div>
-      </section><!-- End Cta Section -->
+      </section>
+      <!-- FINAL SECCIÓN EQUIPO ROX -->
 
-      <!-- ======= Counts Section ======= -->
-          <!-- ======= Team Section ======= -->
-          <section id="team" class="team">
-            <div class="container" data-aos="fade-up">
-      
-              <div class="section-title">
-                <h2>Equipo</h2>
-                <p>Nuestro equipo de trabajo</p>
-              </div>
-      
-                  <div class="member" data-aos="fade-up" data-aos-delay="400">
-                 
-            <div class="organigrama"style="display: flex; align-items: center; justify-content: center;">
-                  <ul>
-                      <li>
-                        <a>CEO<br>Esteban Ferre</a>
-                          <ul>
-                              <li><a>Gerencia Operacional</a>
-                                <ul>
-                                  <li><a>Supervisor de Proyectos<br>Sergio Laxalt</a>
-                                    <ul>
-                                      <li><a>Prevencionista<br>Barbara Diaz</a>
-                                      <li><a>Encargado de Bodega<br>Jorge Altez</a>
-                                      <li><a>Técnicos Eléctricos<br>Claudio Jara<br>Héctor Ríos<br>Cristopher Espinoza</a>
-                                    </ul>
-                                  </li>
-                                </ul>
-                              </li>
-                              <li><a>Gerencia Administración</a>
-                                <ul>
-                                  <li><a>Encargado de administración<br>Sttefania Carrasco</a>
-                                  <ul>
-                                  <li><a>Asistente Administrativo<br>Natalia Tapia</a>
-                                  </ul>
-                                </ul>
-                            </li>
-                          </ul>
-                      </li>
-                  </ul>
-              </div>
+
+          <!-- ======= 7. SECCION MIEMBROS GERENCIA ======= -->
+           <section id="team" class="team">
+          <div class="container" data-aos="fade-up">
+    
+            <div class="section-title">
+              <h2>Gerencia</h2>
+              <p>Gerencia ROX</p>
             </div>
-                
+    
+            <div class="row">
+    
+              <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
+                <div class="member" data-aos="fade-up" data-aos-delay="100">
+                  <div class="member-img">
+                    <img src="assets/img/team/team-1.png" class="img-fluid" alt="">
+                    <div class="social">
+                      <a href="https://www.linkedin.com/in/eferre/"><i class="bi bi-linkedin"></i></a>
+                    </div>
+                  </div>
+                  <div class="member-info">
+                    <h4>Esteban Ferre</h4>
+                    <span>CEO</span>
+                  </div>
+                </div>
+              </div>
+    
+    <!--
+              <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
+                <div class="member" data-aos="fade-up" data-aos-delay="200">
+                  <div class="member-img">
+                    <img src="assets/img/team/team-2.jpg" class="img-fluid" alt="">
+                    <div class="social">
+                      <a href=""><i class="bi bi-twitter"></i></a>
+                      <a href=""><i class="bi bi-facebook"></i></a>
+                      <a href=""><i class="bi bi-instagram"></i></a>
+                      <a href=""><i class="bi bi-linkedin"></i></a>
+                    </div>
+                  </div>
+                  <div class="member-info">
+                    <h4>Nombre Apellido</h4>
+                    <span>Cargo</span>
+                  </div>
+                </div>
+              </div>
+    
+              <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
+                <div class="member" data-aos="fade-up" data-aos-delay="300">
+                  <div class="member-img">
+                    <img src="assets/img/team/team-3.jpg" class="img-fluid" alt="">
+                    <div class="social">
+                      <a href=""><i class="bi bi-twitter"></i></a>
+                      <a href=""><i class="bi bi-facebook"></i></a>
+                      <a href=""><i class="bi bi-instagram"></i></a>
+                      <a href=""><i class="bi bi-linkedin"></i></a>
+                    </div>
+                  </div>
+                  <div class="member-info">
+                      <h4>Nombre Apellido</h4>
+                    <span>Cargo</span>
+                  </div>
+                </div>
+              </div>
+    
+              <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
+                <div class="member" data-aos="fade-up" data-aos-delay="400">
+                  <div class="member-img">
+                    <img src="assets/img/team/team-4.jpg" class="img-fluid" alt="">
+                    <div class="social">
+                      <a href=""><i class="bi bi-twitter"></i></a>
+                      <a href=""><i class="bi bi-facebook"></i></a>
+                      <a href=""><i class="bi bi-instagram"></i></a>
+                      <a href=""><i class="bi bi-linkedin"></i></a>
+                    </div>
+                  </div>
+                  <div class="member-info">
+                      <h4>Nombre Apellido</h4>
+                    <span>Cargo</span>
+                  </div>
+                </div>
+              </div>-->
+    
             </div>
+    
+          </div>
+        </section>
+        <!-- FINAL SECCIÓN MIEMBROS GERENCIA -->
 
-          </section><!-- End Team Section -->
-
-       <!-- ======= Clients Section ======= -->
+       <!-- ======= 8. SECCIÓN CLIENTES ======= -->
 
        <section id="clients" class="clients" style="margin-top: 5%;">
         <div class="container" data-aos="zoom-in">
@@ -372,9 +418,10 @@
           </div>
 
         </div>
-      </section><!-- End Clients Section -->
+      </section>
+      <!-- FINAL SECCIÓN CLIENTES -->
 
-      <!-- ======= Contact Section ======= -->
+      <!--  ======= 9. SECCIÓN CONTACTO ======= -->
       <section id="contact" class="contact">
         <div class="container" data-aos="fade-up">
 
@@ -416,11 +463,13 @@
           </div>
 
         </div>
-      </section><!-- End Contact Section -->
+      </section>
+      <!-- FINAL SECCIÓN CONTACTO -->
 
-    </main><!-- End #main -->
+    </main>
+    <!-- FINAL SECCIÓN WEB -->
 
-    <!-- ======= Footer ======= -->
+    <!-- ======= 10. FOOTER ======= -->
     <footer id="footer">
       <div class="footer-top">
         <div class="container">
@@ -467,7 +516,8 @@
           &copy; Copyright <strong><span>ROX</span></strong>. All Rights Reserved <script>document.write(new Date().getFullYear())</script>
         </div>
       </div>
-    </footer><!-- End Footer -->
+    </footer>
+    <!-- FINAL SECCIÓN FOOTER -->
 
     <div id="preloader"></div>
     <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>

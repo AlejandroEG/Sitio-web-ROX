@@ -20,7 +20,7 @@
 	<body>
 		<div class="container">
 			<div class="row">
-				<h3 style="text-align:center">MODIFICAR NOTICIAS</h3>
+				<h3 style="text-align:center">MODIFICAR PROYECTO</h3>
 			</div>
 			
 			<form class="form-horizontal" method="POST" action="update.php"  autocomplete="off">
@@ -36,7 +36,7 @@
 				<div class="form-group">
 					<label for="descripcion" class="col-sm-2 control-label">Descripción</label>
 					<div class="col-sm-10">
-						<input type="text" class="form-control" id="descripcion" name="descripcion" placeholder="descripcion" value="<?php echo $row['descripcion'];?>"  required>
+						<textarea class="form-control" rows="5" id="descripcion" name="descripcion" placeholder="descripción de actividades" value="<?php echo $row['descripcion'];?>" required ></textarea>
 					</div>
 				</div>
 				

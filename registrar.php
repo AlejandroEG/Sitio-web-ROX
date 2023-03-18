@@ -16,12 +16,14 @@ if (isset($_POST['register'])) {
 		$preg9 = trim($_POST['preg9']);
 		$preg10 = trim($_POST['preg10']);
 		$preg11 = trim($_POST['preg11']);
-	    $consulta = "INSERT INTO clientes(nombre, empresa, preg1, preg2, preg3, preg4, preg5, preg6, preg7, preg8, preg9, preg10, preg11) VALUES ('$name','$empresa','$preg1','$preg2','$preg3','$preg4','$preg5','$preg6','$preg7','$preg8','$preg9','$preg10','$preg11')";
+		$fechaActual = date('d-m-Y');
+
+	    $consulta = "INSERT INTO clientes(nombre, empresa, preg1, preg2, preg3, preg4, preg5, preg6, preg7, preg8, preg9, preg10, preg11, fecha) VALUES ('$name','$empresa','$preg1','$preg2','$preg3','$preg4','$preg5','$preg6','$preg7','$preg8','$preg9','$preg10','$preg11','$fechaActual')";
 	    $resultado = mysqli_query($conn,$consulta);
 	    if ($resultado) {
 	    	?> 
-	    	<script language="javascript">alert("Su opinión es valiosa y de gran ayuda para la mejora continua de nuestra Empresa. Atte Gerente General");</script>
-           <?php
+	    	<script language="javascript">alert("Su opinión es valiosa y de gran ayuda para la mejora continua de nuestra Empresa. Su formulario fue respondido con éxito. Será redirigido a la página principal"); window.location.href="http://localhost/Rox/";</script>
+           <?php    
 	    } else {
 	    	?> 
 	    	<script language="javascript">alert("¡Ups ha ocurrido un error!");</script>

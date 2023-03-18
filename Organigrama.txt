@@ -1,0 +1,32 @@
+div class="organigrama"style="display: flex; align-items: center; justify-content: center;">
+   <ul>
+      <li>
+         <a>CEO<br>Esteban Ferre</a>
+         <ul>
+            <li>
+               <a>Gerencia Operacional</a>
+               <ul>
+                  <li>
+                     <a>Supervisor de Proyectos<br>Sergio Laxalt</a>
+                     <ul>
+                        <li><a>Prevencionista<br>Barbara Diaz</a>
+                        <li><a>Encargado de Bodega<br>Jorge Altez</a>
+                        <li><a>Técnicos Eléctricos<br>Claudio Jara<br>Héctor Ríos<br>Cristopher Espinoza</a>
+                     </ul>
+                  </li>
+               </ul>
+            </li>
+            <li>
+               <a>Gerencia Administración</a>
+               <ul>
+                  <li>
+                     <a>Encargado de administración<br>Sttefania Carrasco</a>
+                     <ul>
+                        <li><a>Asistente Administrativo<br>Natalia Tapia</a>
+                     </ul>
+               </ul>
+            </li>
+         </ul>
+      </li>
+   </ul>
+</div>

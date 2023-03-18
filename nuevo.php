@@ -17,14 +17,14 @@
 				<div class="form-group">
 					<label for="titulo" class="col-sm-2 control-label">Título</label>
 					<div class="col-sm-10">
-						<input type="text" class="form-control" id="titulo" name="titulo" placeholder="titulo" required>
+						<input type="text" class="form-control" id="titulo" name="titulo" placeholder="título" required>
 					</div>
 				</div>
 				
 				<div class="form-group">
 					<label for="descripcion" class="col-sm-2 control-label">Descripción</label>
 					<div class="col-sm-10">
-						<input type="text" class="form-control" id="descripcion" name="descripcion" placeholder="descripcion" required>
+						<textarea class="form-control" rows="5" id="descripcion" name="descripcion" placeholder="descripción de actividades" required></textarea>
 					</div>
 				</div>
 				
