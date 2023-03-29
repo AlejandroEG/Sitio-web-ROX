@@ -1,3 +1,5 @@
+***** RECORDAR COLOCAR LAS CREDENCIALES CORRESPONDIENTES A LOS ARCHIVOS DE CONEXION EN REFERENCIA A LAS BASES DE DATOS *****
+
 - EN EL ARCHIVO registrar.php LA LÍNEA 25 DE CODIGO HAY QUE MODIFICAR AGREGANDO LA URL DE LA PÁGINA WEB (SE ENCUENTRA URL LOCAL ACTUALMENTE)
 REFERENCIA:
 <script language="javascript">alert("Su opinión es valiosa y de gran ayuda para la mejora continua de nuestra Empresa. Su formulario fue respondido con éxito. Será redirigido a la página principal"); window.location.href="http://localhost/Rox/";</script> *SE DEBE MODIFICAR EL "http://localhost/Rox/"
